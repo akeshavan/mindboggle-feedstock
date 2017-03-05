@@ -1,29 +1,30 @@
-About nipype
+About mindboggle
 ============
 
-Home: https://github.com/nipy/nipype
+Home: https://github.com/nipy/mindboggle
 
 Package license: Apache 2.0
 
 Feedstock license: BSD 3-Clause
 
-Summary: Nipype, an open-source, community-developed initiative under the umbrella of NiPy, is a Python project that provides a uniform interface to existing neuroimaging software and facilitates interaction between these packages within a single workflow. Nipype provides an environment that encourages interactive exploration of algorithms from different packages (e.g., SPM, FSL, FreeSurfer, AFNI, Slicer, ANTS), eases the design of workflows within and between packages, and reduces the learning curve necessary to use different packages. Nipype is creating a collaborative platform for neuroimaging software development in a high-level language and addressing limitations of existing pipeline systems.
+Summary: mindboggle <http://mindboggle.info> is a Python (+ C++) package for
+    human brain MRI feature extraction, identification, and morphometry
+    for Python 3.5+ (with some C++ code for VTK surface mesh processing).
 
 
 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nipype-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nipype-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nipype-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nipype-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nipype-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nipype-feedstock/branch/master)
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/mindboggle-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/mindboggle-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/mindboggle-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/mindboggle-feedstock)
 
 Current release info
 ====================
 Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mindboggle/badges/version.svg)](https://anaconda.org/conda-forge/mindboggle)
 Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mindboggle/badges/downloads.svg)](https://anaconda.org/conda-forge/mindboggle)
 
-Installing nipype
+Installing mindboggle
 =================
 
 Installing `mindboggle` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
@@ -90,7 +91,7 @@ opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/nipype-feedstock are
+Note that all branches in the conda-forge/mindboggle-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
