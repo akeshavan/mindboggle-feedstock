@@ -20,28 +20,28 @@ Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-f
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nipype/badges/version.svg)](https://anaconda.org/conda-forge/nipype)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nipype/badges/downloads.svg)](https://anaconda.org/conda-forge/nipype)
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mindboggle/badges/version.svg)](https://anaconda.org/conda-forge/mindboggle)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mindboggle/badges/downloads.svg)](https://anaconda.org/conda-forge/mindboggle)
 
 Installing nipype
 =================
 
-Installing `nipype` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `mindboggle` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `nipype` can be installed with:
+Once the `conda-forge` channel has been enabled, `mindboggle` can be installed with:
 
 ```
-conda install nipype
+conda install mindboggle
 ```
 
-It is possible to list all of the versions of `nipype` available on your platform with:
+It is possible to list all of the versions of `mindboggle` available on your platform with:
 
 ```
-conda search nipype --channel conda-forge
+conda search mindboggle --channel conda-forge
 ```
 
 
@@ -80,10 +80,10 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating nipype-feedstock
+Updating mindboggle-feedstock
 =========================
 
-If you would like to improve the nipype recipe or build a new
+If you would like to improve the mindboggle recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
